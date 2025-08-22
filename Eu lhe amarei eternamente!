@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eu te amarei para sempre!🩵💍💜</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Georgia", serif;
+      background: #fff0f5;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .carta {
+      background: #fff;
+      padding: 40px;
+      max-width: 700px;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+      position: relative;
+    }
+    .carta::before {
+      content: "💌";
+      font-size: 40px;
+      position: absolute;
+      top: -25px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    h1 {
+      text-align: center;
+      color: #e63973;
+      font-size: 2.2em;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.2em;
+      line-height: 1.8em;
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+    .assinatura {
+      text-align: right;
+      font-style: italic;
+      margin-top: 30px;
+      color: #e63973;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 25px;
+      background: #e63973;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #c0255c;
+    }
+    .music-frame {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: 0;
+      overflow: hidden;
+    }
+    .music-frame iframe {
+      width: 100%;
+      height: 0;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="music-frame">
+    <iframe src="https://www.youtube.com/embed/Z4mbxaa3XL8?autoplay=1&loop=1&playlist=Z4mbxaa3XL8"
+      frameborder="0" allow="autoplay; encrypted-media"></iframe>
+  </div>
+
+  <div class="carta">
+    <h1>Serei apenas seu.🩵♾️💜</h1>
+    
+    <p>Meu amor, escrevo cada palavra com o coração aberto, você foi algo tão derrepente em minha vida
+      algo ótimo e bom.
+    </p>
+    
+    <p>Você é quem colore meus dias com alegria, quem me inspira a ser melhor e com quem cada instante se transforma em eternidade
+      sempre penso em você, nás 24 Horas do dia a minha mente pensa e clama por ti.</p>
+    
+    <p>Te escolher é a certeza mais doce que a vida me deu, e tudo em você me encanta de uma forma inexplicável, eu te amo
+      de todas as formas e maneiras possiveis, te amarei para sempre e eternamente.</p>
+    
+    <p class="assinatura">Para sempre seu: Pedro Henrique Vanzeli</p>
+    
+    <a href="#" class="btn">Voltar ao topo</a>
+  </div>
+</body>
+</html>
